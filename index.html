@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Finder - Discover Fun Near You</title>
+    
+    <!-- Meta Description for SEO -->
+    <meta name="description" content="Find the best adventure spots and fun activities near you with Adventure Finder. Explore exciting locations for hiking, biking, water sports, and more.">
+
+    <!-- Meta Keywords for SEO -->
+    <meta name="keywords" content="adventure, hiking, biking, water sports, explore, outdoor activities, fun, local adventures, travel, tourism, outdoor experiences">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com">
+
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="Adventure Finder - Discover Fun Near You">
+    <meta property="og:description" content="Find the best adventure spots and fun activities near you with Adventure Finder.">
+    <meta property="og:image" content="path/to/adventure-image.jpg"> <!-- Replace with your image URL -->
+    <meta property="og:url" content="https://yourwebsite.com"> <!-- Replace with your website URL -->
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Adventure Finder - Discover Fun Near You">
+    <meta name="twitter:description" content="Find the best adventure spots and fun activities near you with Adventure Finder.">
+    <meta name="twitter:image" content="path/to/adventure-image.jpg"> <!-- Replace with your image URL -->
+
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="./css/assets/style.css">
+
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- extra style for parallax -->>
+    <style>
+        /* Parallax Section */
+        .parallax {
+            background-image: url('./assets/images/parallax.png'); /* Link to the parallax image */
+            min-height: 600px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .parallax-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        .parallax-content h1 {
+            font-size: 3.5rem;
+            margin: 0;
+        }
+
+        .parallax-content p {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="/" class="navbar-brand">
+            <span class="app-title">Adventure Finder</span>
+        </a>
+    </header>
+
+    <!-- Parallax Section -->
+    <section class="parallax" role="banner">
+        <div class="parallax-content">
+            <h1 style="text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff;">Explore the World</h1>
+            <p>Find exciting adventures near you</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="content-container" role="main">
+        <h1>Discover Adventures Near You</h1>
+        <p>Find the best local spots for hiking, biking, water sports, and more exciting outdoor activities. Explore and have fun!</p>
+
+        <!-- Features Section -->
+        <section class="features-section" aria-labelledby="features-heading">
+            <h2 id="features-heading">Why Adventure Finder?</h2>
+            <div class="features-container">
+                <div class="feature-item" aria-labelledby="feature-hiking">
+                    <i class="fas fa-hiking feature-icon" aria-hidden="true"></i>
+                    <h3 id="feature-hiking">Hiking Trails</h3>
+                    <p>Discover beautiful trails for all skill levels near your location.</p>
+                </div>
+                <div class="feature-item" aria-labelledby="feature-biking">
+                    <i class="fas fa-bicycle feature-icon" aria-hidden="true"></i>
+                    <h3 id="feature-biking">Biking Paths</h3>
+                    <p>Explore scenic biking paths that will challenge and excite you.</p>
+                </div>
+                <div class="feature-item" aria-labelledby="feature-water">
+                    <i class="fas fa-water feature-icon" aria-hidden="true"></i>
+                    <h3 id="feature-water">Water Sports</h3>
+                    <p>Find the best spots for kayaking, surfing, and other water activities.</p>
+                </div>
+                <div class="feature-item" aria-labelledby="feature-mountain">
+                    <i class="fas fa-mountain feature-icon" aria-hidden="true"></i>
+                    <h3 id="feature-mountain">Mountain Adventures</h3>
+                    <p>Embark on thrilling mountain adventures and enjoy breathtaking views.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section" aria-labelledby="cta-heading">
+            <h2 id="cta-heading">Ready for Your Next Adventure?</h2>
+            <p>Sign up today to start exploring the best local spots and plan your next outdoor adventure!</p>
+            <a href="/signup" class="signup-button">Join Now</a>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <nav aria-label="Footer navigation">
+            <a href="/terms"><i class="fas fa-file-alt"></i> Terms of Service</a>
+            <a href="/privacy"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+        </nav>
+        <p>&copy; 2024 Adventure Finder. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
