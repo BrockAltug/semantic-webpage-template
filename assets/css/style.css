@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e7c7b;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.content-container {
+    padding: 5rem 2rem;
+    text-align: center;
+    background-color: #e3f2fd;
+    color: #212121;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #00796b;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.features-section {
+    border: #00796b 2px solid;
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    background-color: #ffca28;
+    padding: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    max-width: 200px;
+    text-align: center;
+    margin: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 1.5rem;
+    background-color: #00796b;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #ffca28;
+}
+
+.cta-section {
+    padding: 2rem;
+    background-color: #00796b;
+    color: white;
+}
+
+.signup-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ffca28;
+    color: #00796b;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #ffb300;
+}
+
+.footer {
+    padding: 2rem;
+    background-color: #0e7c7b;
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffca28;
+    text-decoration: none;
+}
